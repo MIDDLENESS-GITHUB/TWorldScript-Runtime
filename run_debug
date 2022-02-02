@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Compile source..."
+
+g++ -o test main.cpp tworld.cpp server.cpp
+
+./test
